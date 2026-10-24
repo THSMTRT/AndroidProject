@@ -201,7 +201,7 @@ private fun TagChip(text: String) {
 private fun getStatusText(status: TaskStatus): String {
     return when (status) {
         TaskStatus.TODO -> "К исполнению"
-        TaskStatus.IN_PROGRESS -> "В процессе"
+        TaskStatus.IN_PROCESS -> "В процессе"
         TaskStatus.DONE -> "Сделано"
     }
 }

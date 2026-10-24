@@ -1,5 +1,7 @@
 package com.example.coflow.data.firebase
 
+import com.example.coflow.models.TaskModel
+
 // Интерфейс репозитория для работы с задачами в Firestore
 interface TaskRepository {
     suspend fun getById(id: String): TaskSchema?

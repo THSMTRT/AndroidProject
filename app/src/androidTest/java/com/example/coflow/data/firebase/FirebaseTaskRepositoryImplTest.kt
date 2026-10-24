@@ -1,6 +1,7 @@
 package com.example.coflow.data.firebase
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.example.coflow.models.TaskStatus
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.*

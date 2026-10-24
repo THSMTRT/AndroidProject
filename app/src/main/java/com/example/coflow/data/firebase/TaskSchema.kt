@@ -1,5 +1,6 @@
 package com.example.coflow.data.firebase
 
+import com.example.coflow.models.TaskStatus
 import com.google.firebase.Timestamp
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.DocumentSnapshot

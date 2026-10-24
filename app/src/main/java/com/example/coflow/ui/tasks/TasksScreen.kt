@@ -72,7 +72,7 @@ fun TasksScreen(onNavigateToCreateTask: () -> Unit, onNavigateToTaskDetail: (Int
     val groups = when (grouping) {
         TaskGrouping.STATUS -> listOf(
             TaskGroup("TODO", stringResource(R.string.tasks_group_planned), filteredTasks.filter { it.status == TaskStatus.TODO }),
-            TaskGroup("IN_PROGRESS", stringResource(R.string.tasks_group_active), filteredTasks.filter { it.status == TaskStatus.IN_PROGRESS }),
+            TaskGroup("IN_PROGRESS", stringResource(R.string.tasks_group_active), filteredTasks.filter { it.status == TaskStatus.IN_PROCESS }),
             TaskGroup("DONE", stringResource(R.string.tasks_group_completed), filteredTasks.filter { it.status == TaskStatus.DONE })
         )
         TaskGrouping.DEADLINE -> listOf(
